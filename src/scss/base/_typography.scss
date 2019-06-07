@@ -50,6 +50,7 @@ h3,
 h4 {
     font-family: 'Raleway', sans-serif;
     color: hsl(0, 0%, 100%);
+    font-weight: 700;
 }
 
 .paragraph {
@@ -58,4 +59,19 @@ h4 {
     &:not(:last-child) {
         margin-bottom: 3rem;
     }
+}
+
+.intro__primary-heading {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+
+    span {
+        display: block;
+    }
+}
+
+.intro__secondary-heading {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+
 }

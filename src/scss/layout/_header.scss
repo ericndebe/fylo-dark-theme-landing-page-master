@@ -1,0 +1,27 @@
+.header {
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__main-img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .hero-img {
+
+            max-width: 90%;
+        }
+    }
+
+    &__main-heading {
+        width: 50%;
+        text-align: center;
+    }
+}
