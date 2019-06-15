@@ -1,0 +1,42 @@
+.main {
+    background-color: $seconday-color;
+}
+
+.about {
+
+    padding: 10rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    &__content {
+        display: flex;
+        margin: 5rem;
+    }
+
+    &__item {
+        flex-basis: 50%;
+        text-align: center;
+
+        &--img {}
+
+        &--heading {}
+
+        &--text {}
+    }
+
+}
+
+.additional-info {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial {
+    padding: 10rem 0;
+
+    &__content {
+        display: flex;
+    }
+}
