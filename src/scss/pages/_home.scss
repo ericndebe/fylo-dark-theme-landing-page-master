@@ -4,7 +4,7 @@
 
 .about {
 
-    padding: 10rem 5rem;
+    padding: 10rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,16 +12,27 @@
 
     &__content {
         display: flex;
-        margin: 5rem;
+        justify-content: space-between;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 5rem;
+        }
+
     }
 
     &__item {
-        flex-basis: 50%;
+        flex-basis: 45%;
         text-align: center;
 
-        &--img {}
+        &--img {
+            width: 65px;
+            height: 64px;
+        }
 
-        &--heading {}
+        &--heading {
+            margin: .6rem 0;
+        }
 
         &--text {}
     }
@@ -31,6 +42,25 @@
 .additional-info {
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    &__img {
+        img {
+            width: 85%;
+        }
+    }
+
+    &__text {
+
+        &--heading {
+            span {
+                display: block;
+            }
+
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 .testimonial {
@@ -38,5 +68,31 @@
 
     &__content {
         display: flex;
+        justify-content: space-between;
+
+        &--block {
+            width: 28%;
+            background-color: $testimonial-bg-color;
+            border-radius: 5px;
+            padding: 2rem 1.5rem;
+        }
+    }
+
+    &__text {
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+
+    &__user-info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        &--rounded-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            margin-right: 1rem;
+        }
     }
 }
