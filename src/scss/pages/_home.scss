@@ -26,8 +26,8 @@
         text-align: center;
 
         &--img {
-            width: 65px;
-            height: 64px;
+            /* width: 65px;
+            height: 64px; */
         }
 
         &--heading {
@@ -55,6 +55,7 @@
         &--heading {
             span {
                 display: block;
+                line-height: 1.2;
             }
 
             font-size: 3rem;
@@ -64,7 +65,7 @@
 }
 
 .testimonial {
-    padding: 10rem 0;
+    padding: 10rem 0 20rem 0;
 
     &__content {
         display: flex;
@@ -93,6 +94,12 @@
             height: 40px;
             border-radius: 50px;
             margin-right: 1rem;
+        }
+
+        &--details {
+            h4 {
+                font-size: 1.3rem;
+            }
         }
     }
 }
