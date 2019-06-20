@@ -6,8 +6,9 @@
 	.sign-up {
 		background-color: $primary-color;
 		position: absolute;
-		width: 65%;
-		height: 150px;
+
+		padding: 5rem;
+		text-align: center;
 		@include absCenter;
 		top: -3%;
 		display: flex;
