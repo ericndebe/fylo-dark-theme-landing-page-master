@@ -1,1 +1,1 @@
-export const app = () => console.log("object");
+export const app = () => console.log('object');
